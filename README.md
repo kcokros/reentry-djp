@@ -1,6 +1,6 @@
 # PDF Document Processor
 
-Aplikasi **Streamlit** untuk memproses dan mengekstrak data terstruktur dari file PDF **LHPT** dan **LHP2DK**. Aplikasi ini memproses dokumen PDF yang diunggah dan menghasilkan file CSV yang berisi data dan analisis utama dari dokumen tersebut.
+Aplikasi **Streamlit** sangat sederhana untuk memproses dan mengekstrak data terstruktur dari file PDF **LHPT** dan **LHP2DK**. Aplikasi ini memproses dokumen PDF yang diunggah dan menghasilkan file CSV yang berisi data dan analisis utama dari dokumen tersebut.
 
 ---
 
@@ -36,22 +36,6 @@ Library Python yang diperlukan untuk menjalankan aplikasi ini:
 - `pandas`
 - `re`
 
-Instal dependensi dengan perintah berikut:
-```bash
-pip install streamlit pdfplumber pandas
-Memulai
-Clone Repository
-bash
-Copy code
-git clone https://github.com/yourusername/pdf-document-processor.git
-cd pdf-document-processor
-Jalankan Aplikasi
-Arahkan ke direktori proyek.
-Jalankan aplikasi Streamlit:
-bash
-Copy code
-streamlit run app.py
-Buka URL yang disediakan di browser Anda untuk mengakses aplikasi.
 Cara Menggunakan
 Unggah File PDF:
 
@@ -64,47 +48,11 @@ Aplikasi akan mengekstrak data yang diperlukan dan menampilkan hasilnya dalam ta
 Unduh Hasil:
 
 Klik tombol Download CSV untuk menyimpan data yang telah diproses dalam format CSV.
-Lihat Data yang Diproses:
 
-Lihat pratinjau data hasil ekstraksi langsung di dalam aplikasi.
-Struktur File
-bash
-Copy code
-pdf-document-processor/
-├── app.py                  # Aplikasi utama Streamlit
-├── README.md               # Dokumentasi proyek
-├── requirements.txt        # Daftar dependensi
-Contoh Output
-Output CSV LHPT:
-Nama File	Nomor LHPT	Tahun Pajak	Data Pemicu	Data Penguji	...
-LHPT_Example.pdf	LAP-1234	2023	pemicu-xyz	penguji-abc	...
-Output CSV LHP2DK:
-Jenis Data	NOMOR_LHPT	Indikasi Ketidakpatuhan	Modus Ketidakpatuhan	Total Potensi Awal	Total Potensi Akhir
-Data Penguji Example	5678	Indikasi Contoh	Modus Contoh	1000000.00	1200000.00
-Pengembangan di Masa Depan
-Tambahkan penanganan error untuk file PDF yang tidak valid atau rusak.
-Termasuk visualisasi data untuk wawasan yang diekstrak.
-Dukungan untuk format dokumen tambahan.
 Kontribusi
 Kontribusi sangat diterima! Harap fork repository ini dan buat pull request untuk peningkatan fitur atau perbaikan bug.
 
-Lisensi
-Proyek ini dilisensikan di bawah MIT License. Lihat file LICENSE untuk detail lebih lanjut.
-
 Kontak
 Untuk pertanyaan atau dukungan, hubungi:
-
-Nama: Nama Anda
-Email: email.anda@example.com
-GitHub: yourusername
-yaml
-Copy code
-
----
-
-### Cara Menggunakan:
-1. Salin teks di atas.
-2. Tempel ke file `README.md` dalam proyek Anda.
-3. Simpan dan tambahkan file tersebut ke repository GitHub Anda.
-
-Jika ada bagian yang ingin disesuaikan lebih lanjut, beri tahu saya! 😊
+Nama: Kartiko C.S.
+Email: kartiko.sewoyo@kemenkeu.go.id
