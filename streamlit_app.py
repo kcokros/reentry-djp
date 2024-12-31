@@ -10,10 +10,10 @@ import tempfile
 st.title('PDF Document Processor')
 processing_type = st.sidebar.radio(
     "Select Processing Type",
-    ["Process LHPT", "Process LHP2DK"]
+    ["Proses LHPT", "Proses LHP2DK"]
 )
 
-if processing_type == "Process LHPT":
+if processing_type == "Proses LHPT":
     st.header('LHPT PDF Processor')
     # Original LHPT processing code
     
